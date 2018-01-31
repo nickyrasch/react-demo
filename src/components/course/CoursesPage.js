@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import  * as courseActions from '../../actions/courseActions';
 import CourseList from './CourseList';
-import browserHistroy from 'react-router';
+import {browserHistory} from 'react-router';
 
 class CoursesPage extends React.Component {
   constructor(props, context) {
